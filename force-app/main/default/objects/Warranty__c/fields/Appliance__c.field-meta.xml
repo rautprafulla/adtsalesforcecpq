@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appliance__c</fullName>
+    <description>Appliance</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Appliance</inlineHelpText>
+    <label>Appliance</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Appliance_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>TV</fullName>
+                <default>false</default>
+                <label>TV</label>
+            </value>
+            <value>
+                <fullName>Smartch Watch</fullName>
+                <default>false</default>
+                <label>Smartch Watch</label>
+            </value>
+            <value>
+                <fullName>Headphones</fullName>
+                <default>false</default>
+                <label>Headphones</label>
+            </value>
+            <value>
+                <fullName>Fridge</fullName>
+                <default>false</default>
+                <label>Fridge</label>
+            </value>
+            <value>
+                <fullName>Wishing Machine</fullName>
+                <default>false</default>
+                <label>Wishing Machine</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Home</controllingFieldValue>
+            <valueName>TV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Home</controllingFieldValue>
+            <valueName>Fridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Home</controllingFieldValue>
+            <valueName>Wishing Machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal</controllingFieldValue>
+            <valueName>Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal</controllingFieldValue>
+            <valueName>Smartch Watch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal</controllingFieldValue>
+            <valueName>Headphones</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
